@@ -2,3 +2,5 @@
 /pelican-themes/*
 /output/*
 /theme/*
+/pull.sh
+/push.sh

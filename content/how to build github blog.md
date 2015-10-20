@@ -26,7 +26,7 @@ Anaconda集成了Python很多常用的工具和库，如pip。
 pip是Python的一个包管理器，非常方便。如果安装Python的时候通过Anaconda安装就自带pip，否则须自行安装pip，网上搜吧。
 
 ###Pelican Markdown安装
-这是一个python库，用来将Markdown文件转换为Html文件需要的工具。安装方法如下：
+这是一个python库，用来将Markdown文件转换为Html文件需要的工具。安装方法如下： 
 ```bash
 pip install pelican
 pip install markdown
