@@ -11,7 +11,7 @@ PATH = 'content'
 TIMEZONE = 'Asia/Shanghai'
 
 DEFAULT_LANG = u'zh'
-THEME = 'theme/pelican-bootstrap3'
+THEME = 'pelican-themes/pelican-bootstrap3'
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None

@@ -78,7 +78,7 @@ make publish
 ```bash
 make serve
 ```
-执行上面那条命令就会建一个服务器吧。可在本机http://127.0.0.1:8000 看到效果。有些浏览器可能说没有证书没法打开。我用Opera无法打开，用Chrome正常打开。
+执行上面那条命令就会建一个服务器吧。可在本机`http://127.0.0.1:8000` 看到效果。有些浏览器可能说没有证书没法打开。我用Opera无法打开，用Chrome正常打开。
 
 到此为止，在本地的工作就完成了。需要将本地的项目上传到github上了。
 进入到output文件夹。
@@ -86,17 +86,11 @@ make serve
 ```bash
 git init
 ```
-这个我不太明白，好像没有这句好像是不行的，这句运行是不会报错的。
+将这个文件夹与github上的仓库绑定。就是说之后push的时候知道往哪push
 ```bash
 git remote add origin https://github.com/username/username.github.io.git
 ```
-再用下面这条命令将github上的文件下载下来，我觉得这个命令就相当与将这个文件夹与github上对应的分支绑定起来，以后用git push的时候就知道往哪个分支上push。如果不调用这个命令直接调用git push它会提示先要git pull。运行这句话是没有错误的，如果有错误的话，可能是因为你文件夹里有与github上名字相同的文件，建议将output文件夹中除.git文件夹外其他文件都删除。完成了这一步之后再重新将博客编译一次。
-```bash
-git pull https://github.com/username/username.githu
-b.io
-```
-username是你自己创建的名字。
-将文件夹里变化的信息更新到.git中
+将修改的文件信息添加到.git中
 ```bash
 git add .
 git commit -m "update"
